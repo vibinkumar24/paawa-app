@@ -3,40 +3,36 @@
     width: 400px;
     border: 1px solid black;
     text-align: center;
-    margin-left: 420px;
+    margin: 20px auto;
     border-radius: 10px;
-    margin-top: 20px;
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
     #search-form {
         margin-left: 15px;
     }
 }
 
-@media (max-width:435px) {
+@media (max-width: 435px) {
     #search-form {
-        margin-left: 15px;
         width: 375px;
     }
 }
 
-@media (max-width:410px) {
+@media (max-width: 410px) {
     #search-form {
-        margin-left: 12px;
         width: 365px;
     }
 }
-@media (max-width:380px) {
+
+@media (max-width: 380px) {
     #search-form {
-        margin-left: 15px;
         width: 340px;
     }
 }
 
-@media (max-width:370px) {
+@media (max-width: 370px) {
     #search-form {
-        margin-left: 12px;
         width: 334px;
     }
 }
